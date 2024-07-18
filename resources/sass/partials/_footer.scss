@@ -1,0 +1,40 @@
+footer{
+    font-family: "Tenor Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.fa-instagram{
+    transition: $dr;
+}
+.fa-instagram:hover{
+    background: -webkit-linear-gradient(top, #405DE6 0%, #5B51D8 20%, #833AB4 30%, #C13584 40% , #E1306C 50%, #FD1D1D 60%, #F56040 70%, #777737 80%, #FCAF45 90%, #FFDC80 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.fa-youtube{
+    transition: $dr;
+}
+.fa-youtube:hover{
+    color: red;
+}
+.fa-rss{
+    transition: $dr;
+}
+.fa-rss:hover{
+    color: orange;
+}
+.fa-sitemap{
+    transition: $dr;
+}
+.fa-sitemap:hover{
+    color: black;  
+}
+.fa-twitter{
+    transition: $dr;
+}
+.fa-twitter:hover{
+    color:#1DA1F2;
+}

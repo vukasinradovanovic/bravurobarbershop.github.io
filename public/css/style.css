@@ -1,0 +1,256 @@
+@import url("https://fonts.googleapis.com/css2?family=Glass+Antiqua&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+a {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.text-animation {
+  animation: fadeIn 1s ease-out forwards;
+}
+
+.expand {
+  transition: transform 0.3s ease;
+}
+.expand:hover {
+  transform: scale(1.2);
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)), url("../storage/Slider1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#logo {
+  font-family: "Glass Antiqua", cursive;
+  font-size: 60px;
+}
+
+#exampleModalLabel {
+  font-family: "Tenor Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#navbarTogglerDemo03 ul li a {
+  font-family: "Tenor Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+@media (min-width: 860px) {
+  #navbarTogglerDemo03 ul li a {
+    font-size: 17px;
+  }
+}
+@media (min-width: 1200px) {
+  #navbarTogglerDemo03 ul li a {
+    font-size: 22px;
+  }
+}
+
+.navbar-nav .nav-link.active {
+  border: 1px solid #000;
+  border-radius: 7px;
+}
+
+#tMain {
+  padding-top: 100px;
+  padding-bottom: 200px;
+}
+
+#gText {
+  font-family: "Tenor Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-bottom: 50px;
+}
+@media (min-width: 0) {
+  #gText {
+    font-size: 24px;
+  }
+}
+@media (min-width: 480px) {
+  #gText {
+    font-size: 32px;
+  }
+}
+@media (min-width: 860px) {
+  #gText {
+    font-size: 39px;
+  }
+}
+@media (min-width: 1200px) {
+  #gText {
+    font-size: 50px;
+  }
+}
+
+#rezime {
+  font-family: "Tenor Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-bottom: 50px;
+}
+@media (min-width: 0) {
+  #rezime {
+    font-size: 17px;
+  }
+}
+@media (min-width: 480px) {
+  #rezime {
+    font-size: 20px;
+  }
+}
+@media (min-width: 860px) {
+  #rezime {
+    font-size: 24px;
+  }
+}
+@media (min-width: 1200px) {
+  #rezime {
+    font-size: 27px;
+  }
+}
+
+#header_btn {
+  font-family: "Tenor Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+main {
+  font-family: "Tenor Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-image: url(../img/logo.png);
+  background-position: center;
+  background-repeat: repeat;
+  background-blend-mode: color-burn;
+  background-size: 250px;
+}
+
+@media (min-width: 0) {
+  table tr td {
+    font-size: 10px;
+  }
+}
+@media (min-width: 480px) {
+  table tr td {
+    font-size: 15px;
+  }
+}
+@media (min-width: 860px) {
+  table tr td {
+    font-size: 17px;
+  }
+}
+@media (min-width: 1200px) {
+  table tr td {
+    font-size: 20px;
+  }
+}
+
+.card-body > h3 {
+  font-size: 20px;
+}
+
+@media (min-width: 0) {
+  #tIstorijat {
+    font-size: 15px;
+  }
+}
+@media (min-width: 860px) {
+  #tIstorijat {
+    font-size: 14px;
+  }
+}
+@media (min-width: 1200px) {
+  #tIstorijat {
+    font-size: 19px;
+  }
+}
+
+footer {
+  font-family: "Tenor Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.fa-instagram {
+  transition: 0.5s;
+}
+
+.fa-instagram:hover {
+  background: -webkit-linear-gradient(top, #405DE6 0%, #5B51D8 20%, #833AB4 30%, #C13584 40%, #E1306C 50%, #FD1D1D 60%, #F56040 70%, #777737 80%, #FCAF45 90%, #FFDC80 100%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.fa-youtube {
+  transition: 0.5s;
+}
+
+.fa-youtube:hover {
+  color: red;
+}
+
+.fa-rss {
+  transition: 0.5s;
+}
+
+.fa-rss:hover {
+  color: orange;
+}
+
+.fa-sitemap {
+  transition: 0.5s;
+}
+
+.fa-sitemap:hover {
+  color: black;
+}
+
+.fa-twitter {
+  transition: 0.5s;
+}
+
+.fa-twitter:hover {
+  color: #1DA1F2;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #212529;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f8f9fa;
+}/*# sourceMappingURL=style.css.map */

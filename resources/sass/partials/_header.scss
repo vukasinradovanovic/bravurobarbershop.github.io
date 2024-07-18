@@ -1,0 +1,88 @@
+header{
+    background-image:linear-gradient(rgba(#000, 0.2), rgba(#000, 0.7)), url("../storage/Slider1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#logo {
+    font-family: "Glass Antiqua", cursive;
+    font-size: 60px;
+}
+
+#exampleModalLabel{
+    font-family: "Tenor Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#navbarTogglerDemo03{
+    ul{
+        li{
+            a{
+                @include m{
+                    font-size:17px;
+                }
+                @include l{
+                    font-size: 22px;
+                }
+                font-family: "Tenor Sans", sans-serif;
+                font-weight: 400;
+                font-style: normal;
+            }
+        }
+    }
+}
+
+.navbar-nav .nav-link.active{
+    border: 1px solid #000;
+    border-radius: 7px;
+}
+
+#tMain{
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+
+#gText{
+    font-family: "Tenor Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-bottom: 50px;
+    @include xs{
+        font-size: 24px;
+    }
+    @include s{
+        font-size: 32px;
+    }
+    @include m{
+        font-size: 39px;
+    }
+    @include l{
+        font-size: 50px;
+    }
+}
+
+#rezime{
+    font-family: "Tenor Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-bottom: 50px;
+    @include xs{
+        font-size: 17px;
+    }
+    @include s{
+        font-size: 20px;
+    }
+    @include m{
+        font-size: 24px;
+    }
+    @include l{
+        font-size: 27px;
+    }
+}
+#header_btn{
+    font-family: "Tenor Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
